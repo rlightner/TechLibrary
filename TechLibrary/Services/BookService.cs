@@ -45,7 +45,7 @@ namespace TechLibrary.Services
         //    return await queryable.Skip(page).Take(pageSize).ToListAsync();
         //}
 
-        //public async Task<bool> CreatePostAsync(Book book)
+        //public async Task<bool> CreateBookAsync(Book book)
         //{
         //    await _dataContext.Books.AddAsync(book);
 
@@ -54,7 +54,7 @@ namespace TechLibrary.Services
         //    return created > 0;
         //}
 
-        //public async Task<bool> UpdatePostAsync(Book updatedBook)
+        //public async Task<bool> UpdateBookAsync(Book updatedBook)
         //{
         //    _dataContext.Books.Update(updatedBook);
 
